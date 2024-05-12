@@ -9,18 +9,18 @@
         <?= csrf_field() ?>
         <?php if (!empty(session()->getFlashdata('success'))) : ?>
             <div class="alert alert-success">
-                <p><?= session()->getFlashdata('success') ?></p>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
+                <?= session()->getFlashdata('success') ?>
             </div>
         <?php endif; ?>
         <?php if (!empty(session()->getFlashdata('fail'))) : ?>
             <div class="alert alert-danger">
-                <p><?= session()->getFlashdata('fail') ?></p>
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
+                <?= session()->getFlashdata('fail') ?>
             </div>
         <?php endif; ?>
         <div class="input-group custom">
