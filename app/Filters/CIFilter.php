@@ -27,13 +27,13 @@ class CIFilter implements FilterInterface
     public function before(RequestInterface $request, $arguments = null)
     {
         //var_dump('no'); exit;
-        if ($arguments[0] == 'guest') {
+        if ($arguments[0] == 'login') {
             if (CIAuth::check()) {
                 return redirect()->route('admin.home');
             }
         }
 
-        if ($arguments[0] == 'auth') {
+        if ($arguments[0] == 'admin') {
             if (!CIAuth::check()) {
                 return redirect()->route('admin.login.form')->with('fail', 'Inicia sesión primero');
             }            

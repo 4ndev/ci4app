@@ -70,7 +70,7 @@
                         </li>
                         <li class="dropdown">
                             <a href="javascript:;" class="dropdown-toggle">
-                                <span class="micon bi bi-signpost-split"></span><span class="mtext">Circuitos</span>
+                                <span class="micon dw dw-map-6"></span><span class="mtext">Circuitos</span>
                             </a>
                             <ul class="submenu child">
                                 <li><a href="javascript:;">Listado</a></li>
@@ -79,7 +79,7 @@
                         </li>
                         <li class="dropdown">
                             <a href="javascript:;" class="dropdown-toggle">
-                                <span class="micon bi bi-suitcase"></span><span class="mtext">Viajes</span>
+                                <span class="micon dw dw-suitcase2"></span><span class="mtext">Viajes</span>
                             </a>
                             <ul class="submenu child">
                                 <li><a href="javascript:;">Listado</a></li>
@@ -98,7 +98,7 @@
                             </ul>
                         </li>
                         <a href="javascript:;" class="dropdown-toggle no-arrow">
-                            <i class="micon bi bi-airplane"></i><span class="mtext">Vuelos locales</span>
+                            <i class="micon fa fa-plane"></i><span class="mtext">Vuelos locales</span>
                         </a>
                         <a href="javascript:;" class="dropdown-toggle no-arrow">
                             <span class="micon bi bi-boxes"></span><span class="mtext">Optitravel</span>
@@ -141,16 +141,56 @@
                         <span class="micon bi bi-gear"></span><span class="mtext">Configuración</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="javascript:;">Ajustes SEO</a></li>
-                        <li><a href="javascript:;">Traducciones y idiomas</a></li>
-                        <li><a href="javascript:;">Actualización</a></li>
-                        <li><a href="javascript:;">Emails</a></li>
-                        <li><a href="javascript:;">Redes sociales</a></li>
-                        <li><a href="javascript:;">Categorias y tags</a></li>
-                        <li><a href="javascript:;">Bloqueo IP</a></li>
-                        <li><a href="javascript:;">Bloqueo Email</a></li>
-                        <li><a href="javascript:;">Configuración cookies</a></li>
-                        <li><a href="javascript:;">Logs</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-internet-2"></span><span class="mtext">Ajustes SEO</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon fa fa-language"></span><span class="mtext">Traducciones y idiomas</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon ion-loop"></span><span class="mtext">Actualización</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-email-2"></span><span class="mtext">Emails</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-share2"></span><span class="mtext">Redes sociales</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-tag"></span><span class="mtext">Categorias y tags</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-file-126"></span><span class="mtext">Bloqueo IP</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-file-90"></span><span class="mtext">Bloqueo email</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-cookie"></span><span class="mtext">Configuración cookies</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-file-210"></span><span class="mtext">Logs</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
@@ -158,41 +198,31 @@
                         <span class="micon bi bi-person-badge"></span><span class="mtext">Super Administrador</span>
                     </a>
                     <ul class="submenu">
-                        <li><a href="javascript:;">Gestión portales</a></li>
-                        <li><a href="javascript:;">Gestión usuarios</a></li>
-                        <li><a href="javascript:;">Creación formularios</a></li>
-                        <li><a href="javascript:;">Sugerencias</a></li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-settings2"></span><span class="mtext">Gestión portales</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-user2"></span><span class="mtext">Gestión usuarios</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-table"></span><span class="mtext">Creación formulario</span>
+                            </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="javascript:;" class="dropdown-toggle no-arrow">
+                                <span class="micon dw dw-idea"></span><span class="mtext">Sugerencias</span>
+                            </a>
+                        </li>
                     </ul>
                 </li>
                 <li class="dropdown">
                     <a href="<?= route_to('admin.home') ?>" class="dropdown-toggle no-arrow">
                         <span class="micon bi bi-question-circle"></span><span class="mtext">Ayuda</span>
-                    </a>
-                </li>
-                <li>
-                    <div class="dropdown-divider"></div>
-                </li>
-                <li>
-                    <div class="sidebar-small-cap">Extra</div>
-                </li>
-                <li>
-                    <a href="javascript:;" class="dropdown-toggle">
-                        <span class="micon bi bi-file-pdf"></span><span class="mtext">Documentation</span>
-                    </a>
-                    <ul class="submenu">
-                        <li><a href="introduction.html">Introduction</a></li>
-                        <li><a href="getting-started.html">Getting Started</a></li>
-                        <li><a href="color-settings.html">Color Settings</a></li>
-                        <li>
-                            <a href="third-party-plugins.html">Third Party Plugins</a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="https://dropways.github.io/deskapp-free-single-page-website-template/" target="_blank" class="dropdown-toggle no-arrow">
-                        <span class="micon bi bi-layout-text-window-reverse"></span>
-                        <span class="mtext">Landing Page
-                            <img src="/backend/vendors/images/coming-soon.png" alt="" width="25" /></span>
                     </a>
                 </li>
             </ul>
